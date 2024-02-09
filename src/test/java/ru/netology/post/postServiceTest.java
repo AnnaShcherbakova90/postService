@@ -20,7 +20,7 @@ public class postServiceTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data",equalTo("address"));
+                .body("data",equalTo("something"));
         ;
 
     }
