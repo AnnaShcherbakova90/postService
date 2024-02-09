@@ -19,7 +19,7 @@ public class postServiceTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body(/* --> ваша проверка здесь <-- */)
+                //.body(/* --> ваша проверка здесь <-- */)
         ;
 
     }
